@@ -1,166 +1,235 @@
-# E-Commerce Sales Intelligence Dashboard
+# 📊 E-Commerce Sales Intelligence Dashboard
 
-A Power BI internship project focused on analyzing e-commerce sales,
-profitability, product performance, customers, regions, and returns.
+> A Power BI data analytics project developed during my Data Analytics internship at **9Yards Creations**.
 
-## Project Overview
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Analytics-yellow)
+![DAX](https://img.shields.io/badge/DAX-Measures-blue)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Cleaning-green)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-Dashboard-orange)
 
-This dashboard was built in Microsoft Power BI to transform order-level
-data into interactive business insights. The report contains four
-analysis pages:
+---
 
-1.  **Executive Dashboard** --- high-level sales, profit, order,
-    quantity, average order value, and profit-margin KPIs.
-2.  **Product Performance Dashboard** --- product/category/sub-category
-    sales and profit analysis.
-3.  **Customer & Regional Analysis Dashboard** --- customer,
-    salesperson, segment, state, and regional performance.
-4.  **Returns & Business Insights Dashboard** --- returned orders by
-    category, region, product, and month, with a written
-    business-insights section.
+## 📌 Project Overview
 
-## 📊 Dashboard Preview
+The **E-Commerce Sales Intelligence Dashboard** is an interactive business intelligence project developed using **Microsoft Power BI** during my Data Analytics internship at **9Yards Creations**.
 
-### 1. Executive Dashboard
+The objective of this project was to transform raw e-commerce transaction data into an interactive dashboard that helps analyze:
+
+- Sales performance
+- Profitability
+- Product performance
+- Customer behavior
+- Regional sales
+- Sales representatives
+- Returned orders
+- Monthly business trends
+
+The dashboard converts raw data into meaningful visual insights that can support data-driven business decision-making.
+
+---
+
+## 🏢 Internship Information
+
+| Detail | Information |
+|---|---|
+| **Organization** | 9Yards Creations |
+| **Internship Domain** | Data Analytics |
+| **Project Title** | E-Commerce Sales Intelligence Dashboard |
+| **Duration** | June 2026 – July 2026 |
+| **Primary Tool** | Microsoft Power BI |
+| **Data Preparation** | Power Query |
+| **Analysis & Calculations** | DAX |
+| **Project Type** | Business Intelligence / Data Analytics |
+
+---
+
+# 🎯 Project Objectives
+
+The major objectives of this project were:
+
+1. Clean and prepare e-commerce data for analysis.
+2. Develop meaningful business KPIs.
+3. Analyze sales and profit trends over time.
+4. Identify high-performing products and categories.
+5. Analyze customer and regional sales performance.
+6. Understand returned-order patterns.
+7. Build an interactive Power BI report for business analysis.
+8. Present data-driven insights through clear visualizations.
+
+---
+
+# 🛠️ Tools & Technologies
+
+### Microsoft Power BI
+Used to build the interactive dashboards, KPIs, charts, filters, maps, and tables.
+
+### Power Query
+Used for data preparation, transformation, formatting, and cleaning.
+
+### DAX
+Used to create analytical measures and calculate important business KPIs.
+
+### Data Visualization
+Used charts, KPI cards, maps, tables, and interactive slicers to communicate insights effectively.
+
+---
+
+# 📊 Dashboard Preview
+
+## 1. Executive Dashboard
 
 ![Executive Dashboard](screenshots/executive-dashboard.png)
 
-The Executive Dashboard provides an overview of sales and profitability through key KPIs, monthly trends, category performance, regional performance, and top-selling products.
+The Executive Dashboard provides a high-level overview of the business through key performance indicators and visual analysis.
 
-### 2. Product Performance Dashboard
+### Key KPIs
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Total Quantity
+- Average Order Value
+- Profit Margin %
+
+### Analysis
+
+- Monthly Sales Trend
+- Monthly Profit Trend
+- Sales by Category
+- Sales by Region
+- Top 10 Products by Sales
+
+---
+
+## 2. Product Performance Dashboard
 
 ![Product Performance Dashboard](screenshots/product-performance.png)
 
-The Product Performance Dashboard analyzes product, category, and sub-category sales and profitability, along with detailed product-level information.
+The Product Performance Dashboard focuses on product-level and category-level performance.
 
-### 3. Customer & Regional Analysis Dashboard
+### Key KPIs
+
+- Total Products
+- Total Categories
+- Total Sub-Categories
+- Average Sales per Product
+
+### Analysis
+
+- Top 10 Products by Sales
+- Top 10 Products by Profit
+- Category-wise Sales Distribution
+- Profit by Sub-Category
+- Sales by Sub-Category
+- Detailed Product Performance Table
+
+---
+
+## 3. Customer & Regional Analysis Dashboard
 
 ![Customer & Regional Analysis Dashboard](screenshots/customer-regional-analysis.png)
 
-The Customer & Regional Analysis Dashboard provides insights into customer segments, top customers, regional sales, state-level distribution, and sales representatives.
+This dashboard analyzes customer, geographic, segment, and sales representative performance.
 
-### 4. Returns & Business Insights Dashboard
+### Analysis
+
+- Sales by Customer Segment
+- Top 10 Customers by Sales
+- Sales by Region
+- Sales Distribution by State
+- Sales by Regional Manager
+- Customer-level Sales and Profit
+
+---
+
+## 4. Returns & Business Insights Dashboard
 
 ![Returns & Business Insights Dashboard](screenshots/returns-business-insights.png)
 
-The Returns & Business Insights Dashboard analyzes returned orders by category, region, product, and month, along with key business observations.
+This dashboard focuses on returned orders and identifies patterns that may require business attention.
 
-## Tools & Technologies
+### Analysis
 
--   Microsoft Power BI
--   Power Query / data transformation
--   DAX measures
--   Data visualization
--   Interactive filtering and drill-down analysis
+- Returned Orders by Category
+- Returned Orders by Region
+- Top 10 Returned Products
+- Monthly Returns Trend
+- Key Business Insights
 
-## Report Structure
+---
 
-### 1. Executive Dashboard
+# 📈 Key Business Insights
 
-Key KPIs: - Total Sales - Total Profit - Total Orders - Total Quantity -
-Average Order Value - Profit Margin %
+Based on the dashboard analysis:
 
-Visual analysis includes: - Sales trend by year/month - Profit trend by
-month - Sales by region - Sales by product - Sales share by category -
-Filters for region, segment, category, and order date
+- The **Consumer segment** generated the highest share of total sales.
+- **Technology** achieved the highest revenue among the analyzed categories.
+- The **West region** recorded the highest number of returned orders.
+- A small number of products contributed disproportionately to total returns.
+- Monitoring return patterns can help identify potential areas for reducing losses and improving customer satisfaction.
 
-### 2. Product Performance Dashboard
+> These insights are based on the data represented in the Power BI report and may change when different filters are applied.
 
-Key KPIs: - Total Products - Total Categories - Total Sub-Categories -
-Average Sales per Product
+---
 
-Visual analysis includes: - Sales by category - Sales by sub-category -
-Profit by sub-category - Sales by product - Profit by product -
-Product-level detail table
+# 📂 Data Model
 
-### 3. Customer & Regional Analysis Dashboard
+The Power BI report contains three primary tables:
 
-Visual analysis includes: - Sales by customer - Sales by region - Sales
-by state using a map - Sales by segment - Sales by person/sales
-representative - Customer-level sales and profit table
+| Table | Purpose |
+|---|---|
+| **Orders** | Main transactional data used for sales, profit, products, customers, dates, categories, regions, and other analysis |
+| **People** | Information used for sales representative / regional manager analysis |
+| **Returns** | Data used for returned-order analysis |
 
-Interactive filters: - Region - Segment - Category - Order date
+### Main Analytical Areas
 
-### 4. Returns & Business Insights Dashboard
+The data model supports:
 
-Visual analysis includes: - Returned orders by category - Returned
-orders by region - Returned orders by product - Returned orders over
-time - Interactive filters for category, region, segment, and order date
+- Sales analysis
+- Profit analysis
+- Product analysis
+- Customer analysis
+- Regional analysis
+- Returns analysis
+- Time-based analysis
 
-The dashboard's documented observations include: - The Consumer segment
-generated the highest share of total sales. - Technology was the
-highest-revenue category. - The West region recorded the highest number
-of returned orders. - A small number of products contributed
-disproportionately to total returns. - Monitoring return patterns can
-support loss reduction and customer-experience improvements.
+---
 
-## Data Model
+# 📌 Key Metrics
 
-The Power BI file contains three model tables:
+The dashboard uses several business metrics to evaluate performance.
 
--   **Orders** --- primary transactional/order analysis table.
--   **People** --- person/sales-representative information used in
-    customer/people analysis.
--   **Returns** --- return-related data used by the return analysis.
+| Metric | Purpose |
+|---|---|
+| **Total Sales** | Measures overall revenue generated |
+| **Total Profit** | Measures overall profit |
+| **Total Orders** | Measures number of orders |
+| **Total Quantity** | Measures total units sold |
+| **Average Order Value** | Measures average revenue per order |
+| **Profit Margin %** | Measures profitability relative to sales |
+| **Total Products** | Measures number of products |
+| **Total Categories** | Measures number of product categories |
+| **Total Sub-Categories** | Measures number of sub-categories |
+| **Returned Orders** | Measures the number of returned orders |
 
-The report uses measures and fields from the Orders table for the main
-KPIs and visualizations.
+---
 
-## Skills Demonstrated
+# 🔍 Data Analysis Workflow
 
--   Data cleaning and preparation
--   Exploratory data analysis
--   KPI design
--   DAX measure usage
--   Interactive dashboard development
--   Business-oriented data visualization
--   Trend and regional analysis
--   Product and customer performance analysis
--   Return-pattern analysis
--   Communicating data-driven business insights
+The project followed a basic data analytics workflow:
 
-## Repository Structure
-
-``` text
-E-Commerce-Sales-Intelligence-Dashboard/
-│
-├── E-Commerce-Sales-Intelligence-Dashboard.pbix
-├── README.md
-├── UPLOAD_GUIDE.md
-│
-├── docs/
-│   ├── dashboard-pages.md
-│   ├── data-model.md
-│   └── insights.md
-│
-└── screenshots/
-    └── README.md
-```
-
-## How to Open
-
-1.  Install **Microsoft Power BI Desktop**.
-2.  Download the `.pbix` file from this repository.
-3.  Open the file in Power BI Desktop.
-4.  Use the page tabs and slicers to explore the report.
-
-> Note: GitHub cannot render a Power BI `.pbix` file as an interactive
-> dashboard. Screenshots are therefore recommended for the repository's
-> visual preview.
-
-## Internship Portfolio Note
-
-This repository presents the Power BI dashboard as an internship
-portfolio project and documents the analytical work, dashboard
-structure, and business insights demonstrated in the report.
-
-## Screenshots
-
-Dashboard screenshots can be added to the `screenshots/` folder and
-embedded here later. See `screenshots/README.md` for the recommended
-naming convention.
-
-## License
-
-No open-source license is currently specified. The repository is
-intended as a portfolio/project showcase.
+```text
+Raw Data
+   ↓
+Data Cleaning & Transformation
+   ↓
+Data Modeling
+   ↓
+DAX Measures & KPIs
+   ↓
+Exploratory Data Analysis
+   ↓
+Dashboard Development
+   ↓
+Business Insights
