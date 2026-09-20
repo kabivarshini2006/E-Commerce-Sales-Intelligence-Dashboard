@@ -19,6 +19,32 @@ analysis pages:
     category, region, product, and month, with a written
     business-insights section.
 
+## 📊 Dashboard Preview
+
+### 1. Executive Dashboard
+
+![Executive Dashboard](screenshots/executive-dashboard.png)
+
+The Executive Dashboard provides an overview of sales and profitability through key KPIs, monthly trends, category performance, regional performance, and top-selling products.
+
+### 2. Product Performance Dashboard
+
+![Product Performance Dashboard](screenshots/product-performance.png)
+
+The Product Performance Dashboard analyzes product, category, and sub-category sales and profitability, along with detailed product-level information.
+
+### 3. Customer & Regional Analysis Dashboard
+
+![Customer & Regional Analysis Dashboard](screenshots/customer-regional-analysis.png)
+
+The Customer & Regional Analysis Dashboard provides insights into customer segments, top customers, regional sales, state-level distribution, and sales representatives.
+
+### 4. Returns & Business Insights Dashboard
+
+![Returns & Business Insights Dashboard](screenshots/returns-business-insights.png)
+
+The Returns & Business Insights Dashboard analyzes returned orders by category, region, product, and month, along with key business observations.
+
 ## Tools & Technologies
 
 -   Microsoft Power BI
